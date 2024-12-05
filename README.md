@@ -1,3 +1,23 @@
+## Overview
+
+Ecosystem simulation for exploring embodied intelligence in autonomous agents.
+
+This repository is a fork of the [Madrona game engine's](https://github.com/shacklettbp/madrona) [Escape Room example](https://github.com/shacklettbp/madrona_escape_room) and serves as a foundation for an upcoming ecosystem simulation framework. The goal is to develop a system where autonomous animal agents will be trained using evolutionary reinforcement learning, equipped with hierarchical brain architectures to explore general primitive intelligence. Currently, this repository contains the initial setup with plans to evolve agents that demonstrate a broad range of survival and interaction behaviors within a simulated environment. The choice of madrona was motivated by the crucial need for a very high level of scalability, impossible to achieve with a classic game engine such as Unreal Engine or Unity. Madrona makes it possible to create high-throughput, GPU-accelerated simulations of thousands of virtual environments, achieving millions of simulation steps per second on a single GPU. More details on [their page.](https://madrona-engine.github.io/)
+
+
+## Project Goals
+*   **Simulate a Dynamic Ecosystem:** Create a (ideally procedural) virtual environment that allows for interactions.
+*   **Develop Autonomous Animal Agents:** Design and implement agents capable of independent decision-making from sensors (vision (using [Madrona's Batch Rendering](https://madrona-engine.github.io/renderer.html) feature) and others).
+*   **Train with Evolutionary RL:** Utilize evolutionary reinforcement learning to train agents to adapt and survive.
+*   **Hierarchical AI Architecture:** Implement brain structures with modular AI components. Exploration of sensor-based and task-base structures.
+*   **Research**: Explore on a wide variety of topic to study the feasibility of this complex, extremely computationally expensive, large-scale project: Transfer Learning, Federated Learning, Curriculum Learning, Competitive Coevolution, Collaborative/Hierarchical Multi-Agent Systems and more.
+
+
+
+# Below is the original README
+
+
+
 Madrona Escape Room
 ============================
 
